@@ -24,7 +24,8 @@ main_page_head = '''
         body {
             padding-top: 80px;
         }
-        #trailer .modal-dialog {
+        #trailer
+        .modal-dialog {
             margin-top: 200px;
             width: 640px;
             height: 480px;
@@ -35,7 +36,7 @@ main_page_head = '''
             right: -12px;
             z-index: 9001;
         }
-        #trailer-video {
+        trailer-video {
             width: 100%;
             height: 100%;
         }
@@ -76,9 +77,8 @@ main_page_head = '''
             var sourceUrl = 'http://www.youtube.com/embed/'
                             + trailerYouTubeId
                             + '?autoplay=1&html5=1';
-            $("#trailer-video-container")
-                .empty()
-                .append($("<iframe></iframe>", {
+            $("#trailer-video-container").empty().append(
+                $("<iframe></iframe>", {
                     'id': 'trailer-video',
                     'type': 'text-html',
                     'src': sourceUrl,
@@ -103,8 +103,8 @@ main_page_content = '''
     <div class="modal" id="trailer">
       <div class="modal-dialog">
         <div class="modal-content">
-          <a href="#" class="hanging-close" data-dismiss="modal" 
-            aria-hidden="true">
+          <a href="#" class="hanging-close" data-dismiss="modal"
+             aria-hidden="true">
             <img src=
                 "https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"
             />
