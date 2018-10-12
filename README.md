@@ -23,6 +23,6 @@ First project from Udacity Full Stack Web Developer
   1. Download or clone this repo.
   2. Go to the project's directory
   3. Launch the application by
-    + Running the `movie_trailers.html` file
+      + Running the `movie_trailers.html` file
       1. Open the `command shell`
       2. run the following line: `python enterteinment_center.py`
