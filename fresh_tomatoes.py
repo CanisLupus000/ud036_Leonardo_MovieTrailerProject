@@ -25,9 +25,12 @@ main_page_head = '''
             padding-top: 80px;
         }
         #trailer .modal-dialog {
-            margin-top: 200px;
+            margin-top: 120px;
             width: 640px;
             height: 480px;
+        }
+        .title-tile {
+            height: 80px;
         }
         .hanging-close {
             position: absolute;
@@ -42,6 +45,7 @@ main_page_head = '''
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+            height: 480px;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -119,7 +123,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Leonardo's Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -137,7 +141,7 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center"
         data-trailer-youtube-id="{trailer_youtube_id}"
         data-toggle="modal" data-target="#trailer">
-            <h2>{movie_title}</h2>
+            <h2 class="title-tile">{movie_title}</h2>
             <img src="{poster_image_url}" width="220" height="342"
              title="{storyline}">
 </div>
