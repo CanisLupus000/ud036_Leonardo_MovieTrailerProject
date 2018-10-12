@@ -3,7 +3,7 @@ First project from Udacity Full Stack Web Developer
 
 ## Running the Application
 
- ### 1. Instaling Python
+  ### 1. Instaling Python
   1. Click Python Download.
   2. Click the Download Python 3.7.0 button.
   3. The file named python-3.7.0.exe should start downloading into your standard download folder.
@@ -19,4 +19,10 @@ First project from Udacity Full Stack Web Developer
   8. Click the Close button.
     Python should now be installed.
 
- ### 2. Launching the page
+  ### 2. Launching the page
+  1. Download or clone this repo.
+  2. Go to the project's directory
+  3. Launch the application by
+    + Running the `movie_trailers.html` file
+      1. Open the `command shell`
+      2. run the following line: `python enterteinment_center.py`
